@@ -1,0 +1,444 @@
+/* animation keyframes */
+
+	/* generic fade in */
+
+        @-webkit-keyframes fade-in {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+        @-moz-keyframes fade-in {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+        @-o-keyframes fade-in {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+        @keyframes fade-in {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+
+    /* generic fade in */
+
+    /* shake in */
+
+        /* Safari and Chrome */
+        @-webkit-keyframes shake-in {
+            0%      { margin-left: -138px;  margin-top: -138px; }
+            11%     { margin-left: -178px;  margin-top: -125px; }
+            22%     { margin-left: -70px;   margin-top: -130px; }
+            33%     { margin-left: -160px;  margin-top: -158px; }
+            44%     { margin-left: -95px;   margin-top: -127px; }
+            55%     { margin-left: -195px;  margin-top: -132px; }
+            66%     { margin-left: -100px;  margin-top: -155px; }
+            77%     { margin-left: -170px;  margin-top: -142px; }
+            88%     { margin-left: -80px;   margin-top: -127px; }
+            100%    { margin-left: -138px;  margin-top: -138px; }
+        }
+        /* Firefox */
+        @-moz-keyframes shake-in {
+            0%      { margin-left: -138px;  margin-top: -138px; }
+            11%     { margin-left: -178px;  margin-top: -120px; }
+            22%     { margin-left: -70px;   margin-top: -130px; }
+            33%     { margin-left: -160px;  margin-top: -158px; }
+            44%     { margin-left: -95px;   margin-top: -120px; }
+            55%     { margin-left: -195px;  margin-top: -130px; }
+            66%     { margin-left: -100px;  margin-top: -155px; }
+            77%     { margin-left: -170px;  margin-top: -140px; }
+            88%     { margin-left: -80px;   margin-top: -120px; }
+            100%    { margin-left: -138px;  margin-top: -138px; }
+        }
+        /* Opera */
+        @-o-keyframes shake-in {
+            0%      { margin-left: -138px;  margin-top: -138px; }
+            11%     { margin-left: -178px;  margin-top: -120px; }
+            22%     { margin-left: -70px;   margin-top: -130px; }
+            33%     { margin-left: -160px;  margin-top: -158px; }
+            44%     { margin-left: -95px;   margin-top: -120px; }
+            55%     { margin-left: -195px;  margin-top: -130px; }
+            66%     { margin-left: -100px;  margin-top: -155px; }
+            77%     { margin-left: -170px;  margin-top: -140px; }
+            88%     { margin-left: -80px;   margin-top: -120px; }
+            100%    { margin-left: -138px;  margin-top: -138px; }
+        }
+        /* w3c */
+        @keyframes shake-in {
+            0%      { margin-left: -138px;  margin-top: -138px; }
+            11%     { margin-left: -178px;  margin-top: -120px; }
+            22%     { margin-left: -70px;   margin-top: -130px; }
+            33%     { margin-left: -160px;  margin-top: -158px; }
+            44%     { margin-left: -95px;   margin-top: -120px; }
+            55%     { margin-left: -195px;  margin-top: -130px; }
+            66%     { margin-left: -100px;  margin-top: -155px; }
+            77%     { margin-left: -170px;  margin-top: -140px; }
+            88%     { margin-left: -80px;   margin-top: -120px; }
+            100%    { margin-left: -138px;  margin-top: -138px; }
+        }
+
+    /* /shake in */
+
+    /* shake out and in */
+
+        @-webkit-keyframes shake-out-in {
+            0%      { margin-left: -138px;  margin-top: -138px; }
+            15%     { margin-left: -138px;  margin-top: -138px; }
+            20%     { margin-left: -178px;  margin-top: -120px; }
+            25%     { margin-left: -70px;   margin-top: -140px; }
+            30%     { margin-left: -195px;  margin-top: -130px; }
+            35%     { margin-left: -80px;   margin-top: -120px; }
+            40%     { margin-left: -138px;  margin-top: -138px; }
+            60%     { margin-left: -138px;  margin-top: -138px; }
+            64.5%   { margin-left: -178px;  margin-top: -125px; }
+            69%     { margin-left: -70px;   margin-top: -130px; }
+            73.5%   { margin-left: -160px;  margin-top: -158px; }
+            78%     { margin-left: -95px;   margin-top: -127px; }
+            82.5%   { margin-left: -195px;  margin-top: -132px; }
+            87%     { margin-left: -100px;  margin-top: -155px; }
+            91.5%   { margin-left: -170px;  margin-top: -142px; }
+            95%     { margin-left: -80px;   margin-top: -127px; }
+            100%    { margin-left: -138px;  margin-top: -138px; }
+        }
+        @-moz-keyframes shake-out-in {
+            0%      { margin-left: -138px;  margin-top: -138px; }
+            15%     { margin-left: -138px;  margin-top: -138px; }
+            20%     { margin-left: -178px;  margin-top: -120px; }
+            25%     { margin-left: -70px;   margin-top: -140px; }
+            30%     { margin-left: -195px;  margin-top: -130px; }
+            35%     { margin-left: -80px;   margin-top: -120px; }
+            40%     { margin-left: -138px;  margin-top: -138px; }
+            60%     { margin-left: -138px;  margin-top: -138px; }
+            64.5%   { margin-left: -178px;  margin-top: -125px; }
+            69%     { margin-left: -70px;   margin-top: -130px; }
+            73.5%   { margin-left: -160px;  margin-top: -158px; }
+            78%     { margin-left: -95px;   margin-top: -127px; }
+            82.5%   { margin-left: -195px;  margin-top: -132px; }
+            87%     { margin-left: -100px;  margin-top: -155px; }
+            91.5%   { margin-left: -170px;  margin-top: -142px; }
+            95%     { margin-left: -80px;   margin-top: -127px; }
+            100%    { margin-left: -138px;  margin-top: -138px; }
+        }
+        @-o-keyframes shake-out-in {
+            0%      { margin-left: -138px;  margin-top: -138px; }
+            15%     { margin-left: -138px;  margin-top: -138px; }
+            20%     { margin-left: -178px;  margin-top: -120px; }
+            25%     { margin-left: -70px;   margin-top: -140px; }
+            30%     { margin-left: -195px;  margin-top: -130px; }
+            35%     { margin-left: -80px;   margin-top: -120px; }
+            40%     { margin-left: -138px;  margin-top: -138px; }
+            60%     { margin-left: -138px;  margin-top: -138px; }
+            64.5%   { margin-left: -178px;  margin-top: -125px; }
+            69%     { margin-left: -70px;   margin-top: -130px; }
+            73.5%   { margin-left: -160px;  margin-top: -158px; }
+            78%     { margin-left: -95px;   margin-top: -127px; }
+            82.5%   { margin-left: -195px;  margin-top: -132px; }
+            87%     { margin-left: -100px;  margin-top: -155px; }
+            91.5%   { margin-left: -170px;  margin-top: -142px; }
+            95%     { margin-left: -80px;   margin-top: -127px; }
+            100%    { margin-left: -138px;  margin-top: -138px; }
+        }
+        @keyframes shake-out-in {
+            0%      { margin-left: -138px;  margin-top: -138px; }
+            15%     { margin-left: -138px;  margin-top: -138px; }
+            20%     { margin-left: -178px;  margin-top: -120px; }
+            25%     { margin-left: -70px;   margin-top: -140px; }
+            30%     { margin-left: -195px;  margin-top: -130px; }
+            35%     { margin-left: -80px;   margin-top: -120px; }
+            40%     { margin-left: -138px;  margin-top: -138px; }
+            60%     { margin-left: -138px;  margin-top: -138px; }
+            64.5%   { margin-left: -178px;  margin-top: -125px; }
+            69%     { margin-left: -70px;   margin-top: -130px; }
+            73.5%   { margin-left: -160px;  margin-top: -158px; }
+            78%     { margin-left: -95px;   margin-top: -127px; }
+            82.5%   { margin-left: -195px;  margin-top: -132px; }
+            87%     { margin-left: -100px;  margin-top: -155px; }
+            91.5%   { margin-left: -170px;  margin-top: -142px; }
+            95%     { margin-left: -80px;   margin-top: -127px; }
+            100%    { margin-left: -138px;  margin-top: -138px; }
+        }
+
+    /* /shake out and in */
+
+    /* placeholder question fade in */
+
+        @-webkit-keyframes placeholder-question {
+            from { color: transparent; }
+            to   { color: #ccc; }
+        }
+        @-moz-keyframes placeholder-question {
+            from { color: transparent; }
+            to   { color: #ccc; }
+        }
+        @-o-keyframes placeholder-question {
+            from { color: transparent; }
+            to   { color: #ccc; }
+        }
+        @keyframes placeholder-question {
+            from { color: transparent; }
+            to   { color: #ccc; }
+        }
+
+    /* /placeholder question fade in */
+
+    /* placeholder question swap / fade out */
+
+        @-webkit-keyframes placeholder-question-swap {
+            from { color: #ccc; }
+            to   { color: transparent; }
+        }
+        @-moz-keyframes placeholder-question-swap {
+            from { color: #ccc; }
+            to   { color: transparent; }
+        }
+        @-o-keyframes placeholder-question-swap {
+            from { color: #ccc; }
+            to   { color: transparent; }
+        }
+        @keyframes placeholder-question-swap {
+            from { color: #ccc; }
+            to   { color: transparent; }
+        }
+
+    /* /placeholder question swap / fade out */
+
+    /* show question display */
+
+        @-webkit-keyframes question-display {
+            0%   { opacity: 0; }
+            8%   { opacity: 0; }
+            20%  { opacity: 1; }
+            85%  { opacity: 1; }
+            98%  { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        @-moz-keyframes question-display {
+            0%   { opacity: 0; }
+            8%   { opacity: 0; }
+            20%  { opacity: 1; }
+            85%  { opacity: 1; }
+            98%  { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        @-o-keyframes question-display {
+            0%   { opacity: 0; }
+            8%   { opacity: 0; }
+            20%  { opacity: 1; }
+            85%  { opacity: 1; }
+            98%  { opacity: 0; }
+            100% { opacity: 0; }
+        }
+        @keyframes question-display {
+            0%   { opacity: 0; }
+            8%   { opacity: 0; }
+            20%  { opacity: 1; }
+            85%  { opacity: 1; }
+            98%  { opacity: 0; }
+            100% { opacity: 0; }
+        }
+
+    /* /show question display */
+
+    /* show question display again */
+
+        @-webkit-keyframes question-display-again {
+            0%      { opacity: 0; }
+            5%      { opacity: 0; }
+            15%     { opacity: 1; }
+            75%     { opacity: 1; }
+            88%     { opacity: 0; }
+            100%    { opacity: 0; }
+        }
+        @-moz-keyframes question-display-again {
+            0%      { opacity: 0; }
+            5%      { opacity: 0; }
+            15%     { opacity: 1; }
+            75%     { opacity: 1; }
+            88%     { opacity: 0; }
+            100%    { opacity: 0; }
+        }
+        @-o-keyframes question-display-again {
+            0%      { opacity: 0; }
+            5%      { opacity: 0; }
+            15%     { opacity: 1; }
+            75%     { opacity: 1; }
+            88%     { opacity: 0; }
+            100%    { opacity: 0; }
+        }
+        @keyframes question-display-again {
+            0%      { opacity: 0; }
+            5%      { opacity: 0; }
+            15%     { opacity: 1; }
+            75%     { opacity: 1; }
+            88%     { opacity: 0; }
+            100%    { opacity: 0; }
+        }
+
+    /* /show question display again */
+
+    /* show ask again form */
+
+        @-webkit-keyframes ask-again-form {
+            0%      { opacity: 0; }
+            90%     { opacity: 0; }
+            100%    { opacity: 1; }
+        }
+        @-moz-keyframes ask-again-form {
+            0%      { opacity: 0; }
+            90%     { opacity: 0; }
+            100%    { opacity: 1; }
+        }
+        @-o-keyframes ask-again-form {
+            0%      { opacity: 0; }
+            90%     { opacity: 0; }
+            100%    { opacity: 1; }
+        }
+        @keyframes ask-again-form {
+            0%      { opacity: 0; }
+            90%     { opacity: 0; }
+            100%    { opacity: 1; }
+        }
+
+    /* /show ask again form */
+
+    /* show ask again form again */
+
+        @-webkit-keyframes ask-again-form-again {
+            0%      { opacity: 1; }
+            10%     { opacity: 0; }
+            80%     { opacity: 0; }
+            100%    { opacity: 1; }
+        }
+        @-moz-keyframes ask-again-form-again {
+            0%      { opacity: 1; }
+            10%     { opacity: 0; }
+            80%     { opacity: 0; }
+            100%    { opacity: 1; }
+        }
+        @-o-keyframes ask-again-form-again {
+            0%      { opacity: 1; }
+            10%     { opacity: 0; }
+            80%     { opacity: 0; }
+            100%    { opacity: 1; }
+        }
+        @keyframes ask-again-form-again {
+            0%      { opacity: 1; }
+            10%     { opacity: 0; }
+            80%     { opacity: 0; }
+            100%    { opacity: 1; }
+        }
+
+    /* /show ask again form again */
+
+    /* ask again shadow */
+
+        @-webkit-keyframes ask-again-shadow {
+            0%      { opacity: 1; }
+            25%     { opacity: 0; }
+            90%     { opacity: 0; }
+            100%    { opacity: 1; }
+        }
+        @-moz-keyframes ask-again-shadow {
+            0%      { opacity: 1; }
+            25%     { opacity: 0; }
+            90%     { opacity: 0; }
+            100%    { opacity: 1; }
+        }
+        @-o-keyframes ask-again-shadow {
+            0%      { opacity: 1; }
+            25%     { opacity: 0; }
+            90%     { opacity: 0; }
+            100%    { opacity: 1; }
+        }
+        @keyframes ask-again-shadow {
+            0%      { opacity: 1; }
+            25%     { opacity: 0; }
+            90%     { opacity: 0; }
+            100%    { opacity: 1; }
+        }
+
+    /* /ask again shadow */
+
+    /* ask again shadow */
+
+        @-webkit-keyframes ask-again-answer-container {
+            0%		{ opacity: 1; }
+            20%		{ opacity: 0; }
+            60%		{ opacity: 0; }
+            100%	{ opacity: 1; }
+        }
+        @-moz-keyframes ask-again-answer-container {
+        	0%		{ opacity: 1; }
+            20%		{ opacity: 0; }
+            60%		{ opacity: 0; }
+            100%	{ opacity: 1; }
+        }
+        @-o-keyframes ask-again-answer-container {
+        	0%		{ opacity: 1; }
+            20%		{ opacity: 0; }
+            60%		{ opacity: 0; }
+            100%	{ opacity: 1; }
+        }
+        @keyframes ask-again-answer-container {
+        	0%		{ opacity: 1; }
+            20%		{ opacity: 0; }
+            60%		{ opacity: 0; }
+            100%	{ opacity: 1; }
+        }
+
+    /* /ask again shadow */
+
+    /* ask again error */
+
+        @-webkit-keyframes ask-again-error {
+            0%		{ opacity: 0; }
+            10%		{ opacity: 1; }
+            90%		{ opacity: 1; }
+            100%	{ opacity: 0; }
+        }
+        @-moz-keyframes ask-again-error {
+        	0%		{ opacity: 0; }
+            10%		{ opacity: 1; }
+            90%		{ opacity: 1; }
+            100%	{ opacity: 0; }
+        }
+        @-o-keyframes ask-again-error {
+        	0%		{ opacity: 0; }
+            10%		{ opacity: 1; }
+            90%		{ opacity: 1; }
+            100%	{ opacity: 0; }
+        }
+        @keyframes ask-again-error {
+        	0%		{ opacity: 0; }
+            10%		{ opacity: 1; }
+            90%		{ opacity: 1; }
+            100%	{ opacity: 0; }
+        }
+
+    /* /ask again error */
+
+    /* share area fade in */
+
+    	@-webkit-keyframes share-area-fade-in {
+            0%		{ opacity: 0; }
+            67%		{ opacity: 0; }
+            100%	{ opacity: 1; }
+        }
+        @-moz-keyframes share-area-fade-in {
+        	0%		{ opacity: 0; }
+            67%		{ opacity: 0; }
+            100%	{ opacity: 1; }
+        }
+        @-o-keyframes share-area-fade-in {
+        	0%		{ opacity: 0; }
+            67%		{ opacity: 0; }
+            100%	{ opacity: 1; }
+        }
+        @keyframes share-area-fade-in {
+        	0%		{ opacity: 0; }
+            67%		{ opacity: 0; }
+            100%	{ opacity: 1; }
+        }
+
+    /* /share area fade in */
+
+/* /animation keyframes */
